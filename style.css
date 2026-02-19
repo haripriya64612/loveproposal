@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff6a88,#ff99ac);
+    font-family:Segoe UI;
+    overflow:hidden;
+}
+
+.container{
+    text-align:center;
+    color:white;
+}
+
+h1{
+    font-size:3rem;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    margin:10px;
+    cursor:pointer;
+}
+
+#yesBtn{
+    background:white;
+    color:#ff4b7d;
+}
+
+#noBtn{
+    background:#ff4b7d;
+    color:white;
+    position:absolute;
+}
